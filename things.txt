@@ -1,0 +1,26 @@
+demo8:
+点击变换文字内容.png---->结果初始显示"you haven't liked this. click to toggle"如果用鼠标点击这行字就会变成"you like this. click to toggle"
+
+**不是很能明白怎么做到的，也就是不是很清楚代码是什么意思.
+
+demo9:
+handleChange: function(event){
+	this.setState({value: event.target.value});
+}中的target是指目标value，也就是输入的text value吗？
+
+demo10:
+初始值是opacity是1.0，让opacity减去0.5，this.setstate({opacity: opacity})删掉这一步就不会产生渐变的效果，amazing！！！
+.blid(this), 100)是指执行100次。
+所以我认为opacity初始值是1.0，第一次执行时0.95，第20次执行就是0，因为有个if语句0<0.1所以opacity又等于1.0，所以就产生了渐变的效果。
+
+**不是很明白this.props.name, this.state.opacity, this.timer是固定格式吗？有没有之类的规律。
+
+demo11:
+显示一个跳转链接。
+getInitialState是指初始化的username和lastgisturl的内容是空。
+**result[0]?
+**this.setstate里面的内容不是很明白
+**呃。。不明白
+
+demo12：
+demo13：
